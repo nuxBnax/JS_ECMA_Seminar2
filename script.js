@@ -35,3 +35,5 @@ console.log(person.name);
 person.introduce(); // в () ставится this, а стрелочная функция сразу записывает this в момент создания
 person.changeName("Mike");
 person.introduce();
+
+
