@@ -7,7 +7,7 @@
 // содержит название банка.
 
 class BankAccount {
-    static bankName = "GBank"; // это то что есть у всех (как у человека 2 руки)
+    static bankName = "GBank"; // это то что есть у всех (как у человека 2 руки), добавляем свойство для объекта а не для класса
     constructor(accountNumber, balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -50,6 +50,7 @@ class BankAccount {
         }
     }
 }
+
 const account1 = new BankAccount("1234567890", 1000);
 account1.deposit(322.23);
 // account1.deposit(500);
